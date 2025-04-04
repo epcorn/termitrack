@@ -1,6 +1,5 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -10,10 +9,11 @@ import { Autoplay, EffectFade } from "swiper/modules";
 
 export default function HeroSection() {
   const backgroundImages = [
-    "https://assets.onejswhomes.com/image_074933171c/image_074933171c.jpeg",
-    "https://thumbs.dreamstime.com/b/professional-pest-control-services-comprehensive-solutions-home-commercial-needs-ensure-pest-free-environment-your-350354515.jpg",
-    "https://img.freepik.com/premium-photo/pest-control-specialist-setting-traps-home-pest-control_857340-10719.jpg",
-    "https://s3-ap-southeast-1.amazonaws.com/urbanclap-prod/images/growth/luminosity/1631159612066-53b210.jpeg",
+    // "https://assets.onejswhomes.com/image_074933171c/image_074933171c.jpeg",
+    // "https://thumbs.dreamstime.com/b/professional-pest-control-services-comprehensive-solutions-home-commercial-needs-ensure-pest-free-environment-your-350354515.jpg",
+    // "https://img.freepik.com/premium-photo/pest-control-specialist-setting-traps-home-pest-control_857340-10719.jpg",
+    // "https://s3-ap-southeast-1.amazonaws.com/urbanclap-prod/images/growth/luminosity/1631159612066-53b210.jpeg",
+    "https://res.cloudinary.com/epcorn/image/upload/v1743756422/xhxyuff70oq5wjimpouj.jpg",
   ];
 
   return (
@@ -45,19 +45,19 @@ export default function HeroSection() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-45 z-10"></div>
       </div>
 
-      <div className="relative z-20 text-center text-white px-6 md:px-12 max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+      <div className="relative z-20 text-center text-white px-6 md:px-12 max-w-4xl select-none">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 select-none">
           Say Goodbye to Termites.
         </h1>
-        <p className="text-lg md:text-2xl mb-6">
+        <p className="text-lg md:text-2xl mb-6 select-none ">
           Rely on accredited professionals across INDIA, backed with globally
           recognised inspection tools &ldquo;TERMATRAC&quot; to eliminate
           termite infestation hidden behind tough surfaces.
         </p>
-        <p className="italic text-sm md:text-base mb-8">
+        <p className="italic text-sm md:text-base mb-8 select-none">
           &quot;Smart Detection, Strong Protection! &quot;
           <span className="text-xl">&#169;</span>
         </p>

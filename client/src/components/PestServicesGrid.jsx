@@ -1,13 +1,3 @@
-import {
-  GiAmberMosquito,
-  GiAnt,
-  GiBugNet,
-  GiFly,
-  GiRat,
-  GiWhiteBook,
-  GiSpiderAlt,
-} from "react-icons/gi";
-import { SiCockroachlabs } from "react-icons/si";
 import trackerOnly from "../images/trackerOnly.png";
 import itrackerBase from "../images/itrackerBase.jpg";
 import itrackerPro from "../images/trackerPro.jpg";

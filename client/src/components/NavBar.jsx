@@ -43,8 +43,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Logo Symbol" className="h-10" />
-            <span className=" font-varela text-4xl font-bold text-zinc-200">
+            <img src={logo} alt="Logo Symbol" className="h-12" />
+            <span className=" font-varela text-5xl font-bold text-zinc-200">
               Termitrack
             </span>
           </div>
@@ -53,12 +53,12 @@ const Navbar = () => {
             <Link to="/" className="text-white hover:text-[#FBBF24] transition">
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/about"
               className="text-white hover:text-[#FBBF24] transition"
             >
               About Us
-            </Link>
+            </Link> */}
             <a
               href="#services"
               className="text-white hover:text-[#FBBF24] transition"
