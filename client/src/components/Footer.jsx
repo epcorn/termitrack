@@ -12,11 +12,11 @@ const Footer = () => {
                 Termitrack
               </span>
             </div>
-            <p className="text-sm">
+            {/* <p className="text-sm">
               Protecting homes and securing health since 1972. With over 50
               years of experience, we bring eco-friendly and professional pest
-              control solutions to your doorstep.
-            </p>
+              control solutions s your doorstep.
+            </p> */}
           </div>
           {/* Column 2: Quick Links */}
           <div>
@@ -60,7 +60,7 @@ const Footer = () => {
                 href="tel:+1234567890"
                 className="hover:text-[#F59E0B] transition"
               >
-                6138 6600 / 26615745 / 66914400
+                9223453450
               </a>
             </p>
             <p className="text-sm mb-2">
@@ -69,19 +69,15 @@ const Footer = () => {
                 href="mailto:contact@epconr.com"
                 className="hover:text-[#F59E0B] transition"
               >
-                epcorn@yahoo.in
+                info@termitrack.com
               </a>
-            </p>
-            <p className="text-sm">
-              📍 Door No. S - 5, 2nd Floor, Khira Industrial Estate, VM Bhargav
-              Rd, Khira Nagar, Santacruz (West), Mumbai, Maharashtra 400054
             </p>
           </div>
         </div>
         <hr className="border-t border-[#014739] my-8" />
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-sm">
-          <p>&copy; 2024 Epconr. All rights reserved.</p>
+          <p>&copy; 2024 SMARK. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-[#F59E0B] transition">
               Privacy Policy

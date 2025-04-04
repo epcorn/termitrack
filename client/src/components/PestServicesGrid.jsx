@@ -25,8 +25,8 @@ const PestServiceCard = ({
     <div className={`bg-white rounded-lg overflow-hidden shadow-lg flex flex-col h-full border-2 w-full transition-all duration-300 ease-in-out ${ // Base styles
       isHighlighted
         // --- Updated Highlight Styles ---
-        // Using a large, dark, custom arbitrary shadow for a "background" effect
-        ? 'border-gray-300 scale-105 shadow-[0px_0px_35px_15px_rgba(0,0,0,0.35)] z-10' // Custom shadow: centered, 35px blur, 15px spread, 35% black opacity
+        // Using large custom shadow with increased opacity
+        ? 'border-gray-300 scale-105 shadow-[0px_0px_25px_5px_rgba(0,0,0,0.60)] z-10' // Opacity increased to 0.60
         // --- Normal Styles ---
         : 'border-gray-200 hover:shadow-xl' // Default border, hover increases shadow slightly
     }`}>
@@ -91,11 +91,11 @@ const PestServicesGrid = ({ highlightedProduct }) => {
   ];
 
   return (
-    <div id="trackerRange" className="bg-gray-50 py-12 px-4 scroll-mt-16">
+    <div id="trackerRange" className="bg-gray-50 py-1 px-4 scroll-mt-16">
       <h2 className="text-3xl font-bold text-center mb-8">
         iTracker Range
       </h2>
-      <div className="flex flex-wrap justify-center items-stretch gap-6 max-w-6xl mx-auto">
+      <div className="flex flex-wrap justify-center items-stretch gap-8 max-w-6xl mx-auto">
         {pestServices.map((service) => (
           <div key={service.pestType} className="w-full sm:w-1/2 md:w-1/3 lg:w-[31%] flex">
              <PestServiceCard // Use PestServiceCard defined above

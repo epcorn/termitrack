@@ -19,7 +19,7 @@ function App() {
 
         {/* Expanding Phone Number Container */}
         <div className="bg-gradient-to-r from-lime-400 to-yellow-500 h-14 flex items-center justify-center overflow-hidden max-w-0 group-hover:max-w-xs transition-all duration-300 shadow-lg">
-          <span className="text-black font-semibold px-2">9821356229</span>
+          <span className="text-black font-semibold px-2">9223453450</span>
         </div>
       </div>
       <div className="fixed top-[calc(24%+70px)] right-0 flex items-center group z-50">
@@ -31,7 +31,7 @@ function App() {
         {/* Expanding Phone Number Container */}
         <div className="bg-gradient-to-r from-lime-400 to-yellow-500 h-14 flex items-center justify-center overflow-hidden max-w-0 group-hover:max-w-xs transition-all duration-300 shadow-lg">
           <span className="text-black font-semibold px-2">
-            epcorn@yahoo.com
+           info@termitrack.com
           </span>
         </div>
       </div>

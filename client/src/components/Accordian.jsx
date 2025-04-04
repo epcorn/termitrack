@@ -32,26 +32,30 @@ function Accordion() {
   const faqs = [
     {
       question:
-        "Is pest control safe for children? I am pregnant and want to know if pest control can cause any harm to me or my child? Is pest control safe for my elderly parents? Will it harm my pets?",
+        "What is Termatrac?",
 
-      answer: `We use products approved for use by the Central Insecticides Board of the government of India for use at households. Besides using the correct dosage and targeted delivery at the right place makes pest control perfectly safe for all humans including small children, pregnant women, elderly people, and domestic pets`,
+      answer: `iTracker from Termatrac is a non-invasive, non-destructive termite detection system that uses advanced MW technology to detect termite activity.
+`,
     },
     {
       question:
-        "Will pest control be a messy affair? Do I have to move all household stuff during pest control? Do I have to be away from my home for 1-2 days after pest control?",
-      answer: `We now treat cockroaches and ants by specialized gels which contain insecticides specific to those pests. Unlike in the past, we do not spray foul smelling insecticides that used to cause a mess in the house after pest treatment. There is no need to empty the drawers and cover up the food. It is also not necessary to close the house and go away. Your family can continue with its routine activities such as cooking, eating, or watching TV during this treatment
-We apply minute quantities of gel in strategic but inconspicuous locations around the kitchen and the rest of your home. Cockroaches and ants are attracted to the gel eat it and die.`,
+        "Is it gas sensor based?",
+      answer: `No, iTracker from Termatrac is not a gas sensor, sensing CO2. It allows the Professional Pest Controller to accurately pinpoint the location of termites and treat it Spot-on.`,
     },
     {
       question:
-        "I use household insect repellent products and insecticcide, then why pest control?",
+        "On what surfaces does the Termatrac work best?",
       answer:
-        "Cockroaches, bed bugs, ants and other domestic pests thrive around homes. Though unclean conditions increase their numbers, pest’s dependence on people for food and will still exist in the cleanest of premises. Pests can be repulsive, cause carrying disease causing germs on their body and contaminate food. They also interfere with personal comfort and can cause social embarrassment. Your efforts at eliminating these pests can be ineffective and time consuming and the repellents and insecticides you use give lasting results. PECOPP’s pest control treatments thoroughly and efficiently treat pests to prevent recurrence.",
+        "iTracker from Termatrac works best on all surfaces. A well-calibrated machine always gives out reliable readings.",
     },
     {
-      question: `My local pest control agency promises herbal treatment using boric powder. Is it safe and effective?`,
-      answer: `Use of boric powder mixed with flour for cockroaches is certainly not herbal as its ingredients are of industrial origin. By and large it is found to be less effective compared to the gel baiting treatment we do for cockroaches.`,
+      question: `Can iTracker from Termatrac detect other pests?`,
+      answer: `Yes, iTracker from Termatrac is a non-invasive inspection tool that can spot pests within surfaces, making it effective beyond just termites. It can also detect Wood Borers, Ants, and other pests.`,
     },
+    {
+      question: `Do you have a local (Indian) repair and calibration centre?`,
+      answer: `Yes, we have a local calibration centre at Mumbai, allowing machines to be repaired and calibrated instantly, thereby reducing freight costs.`,
+    }
   ];
 
   const toggleFAQ = (index) => {

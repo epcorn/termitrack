@@ -16,9 +16,9 @@ export default function GetInTouch({ selectedFeature, onFeatureToggle, Features 
   const featuresToDisplay = Object.values(Features || {});
 
   return (
-    <section className="bg-gray-100 py-16">
-      <div className="container mx-auto px-6">
-        <div className="bg-white px-6 py-8 rounded-lg shadow-md">
+    <section className="bg-gray-200 py-0">
+      <div className=" mx-0 px-6">
+        <div className=" px-6 py-8">
           {/* /// Heading Section /// */}
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
@@ -48,13 +48,13 @@ export default function GetInTouch({ selectedFeature, onFeatureToggle, Features 
             </div>
 
             {/* Link/Button to scroll down */}
-            <a href="#trackerRange">
+            {/* <a href="#trackerRange">
               <div className="mt-8">
                 <button className="bg-yellow-400 text-black py-3 px-8 rounded-lg font-semibold shadow-md hover:bg-yellow-500 transition">
                   SEE PRODUCTS
                 </button>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
