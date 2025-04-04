@@ -28,7 +28,7 @@ const Dropdown = ({ label, children }) => {
         />
       </button>
       {open && (
-        <div className="absolute left-0 mt-2 w-48 bg-yellow-200 shadow-lg rounded">
+        <div className="absolute font-bold left-0 mt-2 w-48 bg-lime-300 shadow-lg rounded">
           {children}
         </div>
       )}
@@ -55,7 +55,7 @@ const DropdownItem = ({ label, children }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flex justify-between px-4 py-2 text-sm text-gray-700 rounded hover:bg-yellow-300 cursor-pointer">
+      <div className="flex justify-between px-4 py-2 text-sm text-gray-700 rounded hover:bg-yellow-400 cursor-pointer">
         {label}{" "}
         {children && (
           <FiChevronDown

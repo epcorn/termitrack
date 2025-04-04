@@ -13,7 +13,9 @@ export default function HeroSection() {
     // "https://thumbs.dreamstime.com/b/professional-pest-control-services-comprehensive-solutions-home-commercial-needs-ensure-pest-free-environment-your-350354515.jpg",
     // "https://img.freepik.com/premium-photo/pest-control-specialist-setting-traps-home-pest-control_857340-10719.jpg",
     // "https://s3-ap-southeast-1.amazonaws.com/urbanclap-prod/images/growth/luminosity/1631159612066-53b210.jpeg",
-    "https://res.cloudinary.com/epcorn/image/upload/v1743756422/xhxyuff70oq5wjimpouj.jpg",
+    "https://res.cloudinary.com/epcorn/image/upload/v1743769573/co3ollczowvshv6rnd6f.jpg",
+    "https://res.cloudinary.com/epcorn/image/upload/v1743769036/meh0mukzsk9nezbtnfrb.jpg",
+    "https://res.cloudinary.com/epcorn/image/upload/v1743769036/jmkq4iwvsgpy6ymjaht2.jpg"
   ];
 
   return (
@@ -24,7 +26,7 @@ export default function HeroSection() {
       {/* Swiper for background images */}
       <div className="absolute inset-0">
         <Swiper
-          modules={[Autoplay, EffectFade]}
+          modules={[Autoplay, EffectFade]}z
           effect="fade"
           autoplay={{
             delay: 5000,

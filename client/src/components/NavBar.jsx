@@ -64,16 +64,12 @@ const Navbar = () => {
               className="text-white hover:text-[#FBBF24] transition"
             >
               <Dropdown label="Products">
-                <DropdownItem label="Commercial">
-                  <DropdownItem label="Termite Control" />
-                  <DropdownItem label="Rodent Control" />
-                  <DropdownItem label="Insect Removal" />
-                </DropdownItem>
-                <DropdownItem label="Residential">
-                  <DropdownItem label="Bed Bug Treatment" />
-                  <DropdownItem label="Mosquito Control" />
-                  <DropdownItem label="Cockroach Control" />
-                </DropdownItem>
+              
+                  <DropdownItem label="Tracker Only" />
+                  <DropdownItem label="iTracker-Base" />
+                  <DropdownItem label="iTracker-Pro" />
+               
+               
               </Dropdown>
             </a>
             <a
