@@ -1,6 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
+import TrackerOnlyPage from "./pages/TrackerOnlyPage.jsx";
+import ITrackerBasePage from "./pages/ITrackerBasePage.jsx";
+import ITrackerProPage from "./pages/ITrackerProPage.jsx";
 import { Navbar, Footer } from "./components/index.js";
 import NotFound from "./pages/NotFound.jsx";
 import { FaPhone } from "react-icons/fa6";
@@ -39,6 +42,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPageSectionsContinued />} />
         <Route path="*" element={<NotFound />} />
+        <Route path = "/product/TrackerOnly" element = {<TrackerOnlyPage />}/>
+        <Route path = "/product/iTrackerBase" element = {<ITrackerBasePage />}/>
+        <Route path = "/product/iTrackerPro" element = {<ITrackerProPage />}/>
+
+
       </Routes>
       <Footer />
     </div>
