@@ -14,19 +14,19 @@ const ContactUs = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-2">📞 Phone</h3>
+              <h3 className="text-2xl font-semibold mb-2">📞 Phone</h3>
               <p>
-                <a className="text-[#FBBF24] hover:text-[#F59E0B] transition">
+                <a className="text-[#FBBF24] font-bold hover:text-[#F59E0B] transition">
                   9223453450
                 </a>
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-2">📧 Email</h3>
+              <h3 className="text-2xl font-semibold mb-2">📧 Email</h3>
               <p>
                 <a
                   href="mailto:contact@epconr.com"
-                  className="text-[#FBBF24] hover:text-[#F59E0B] transition"
+                  className="text-[#FBBF24] font-bold hover:text-[#F59E0B] transition"
                 >
                   info@termitrack.com
                 </a>
@@ -40,7 +40,7 @@ const ContactUs = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-[#FBBF24]"
+                  className="block text-sm font-bold font-medium text-[#FBBF24]"
                 >
                   Your Name
                 </label>
@@ -54,7 +54,7 @@ const ContactUs = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-[#FBBF24]"
+                  className="block text-sm font-bold font-medium text-[#FBBF24]"
                 >
                   Email Address
                 </label>
@@ -68,7 +68,7 @@ const ContactUs = () => {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-[#FBBF24]"
+                  className="block text-sm font-bold font-medium text-[#FBBF24]"
                 >
                   Message
                 </label>

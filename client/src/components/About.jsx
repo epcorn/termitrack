@@ -29,7 +29,6 @@ const AboutUs = () => {
               higher quality information to better protect the homes and
               businesses of their customers from termites and other pests.
             </p>
-            <p className="text-left mt-5"> Mr. Stelson F. Quadros [C.E.O.]</p>
           </div>
           {/* Core Values */}
           <div>
