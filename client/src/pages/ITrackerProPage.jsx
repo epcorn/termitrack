@@ -19,11 +19,11 @@ const CheckIcon = () => '✓';
 // 2. Define Product-Specific Data (Or import from data file)
 const proProductData = {
   hero: {
-    productName: "iTraker® Pro",
+    productName: "iTraker Pro",
     subTitle: "Advanced Termite Detection Tool",
-    description: "Unmatched precision with Radar, Thermal, and Moisture sensors for non-invasive termite inspection.",
+    description: "Unmatched precision with  Thermal, and Moisture sensors for non-invasive termite inspection.",
    // backgroundImageUrl: iTrakerProHeroBg,
-    buttonText: "ORDER NOW",
+    buttonText: "ORDER iTRACKER-PRO",
     buttonLink: "/contact?product=pro" // Example link
   },
   overview: {
@@ -35,13 +35,13 @@ const proProductData = {
       "Its advanced technology suite provides comprehensive data for accurate diagnosis and targeted treatment planning."
     ],
     features: [
-      "Termite Tracking Radar",
+      "Termite Tracking",
       "High-Resolution Thermal Sensor",
       "Precision Moisture Sensor",
       "Ambient Temperature Sensor",
       "Bluetooth Connectivity & Reporting App"
     ],
-    buttonText: "Request Pro Demo",
+    buttonText: "GET PRICING",
     buttonLink: "/demo?product=pro"
   },
   howItWorks: {
@@ -53,7 +53,7 @@ const proProductData = {
     ]
   },
   benefits: {
-      heading: "Why Choose iTraker® Pro?",
+      heading: "Why Choose iTraker Pro?",
       items: [
         { icon: <CheckIcon />, title: "Definitive Detection", description: "Highest accuracy with combined sensor data reduces guesswork and ensures effective treatment." },
         { icon: <CheckIcon />, title: "Completely Non-Invasive", description: "Inspect thoroughly without drilling, cutting, or damaging client property. Preserves structural integrity." },
@@ -64,13 +64,13 @@ const proProductData = {
       ]
   },
   video: {
-      heading: "See iTraker® Pro in Action",
+      heading: "See iTraker Pro in Action",
       videoId: "YOUR_ITRAKER_PRO_YOUTUBE_ID" // Replace with actual ID
   },
   techSpecs: {
-      heading: "iTraker® Pro Specifications",
+      heading: "iTraker Pro Specifications",
       specs: [
-        { label: "Sensors Included", value: "Radar, Thermal, Moisture, Temperature" },
+        { label: "Sensors Included", value: "Thermal, Moisture, Temperature" },
         { label: "Connectivity", value: "Bluetooth 5.0 LE" },
         { label: "App Compatibility", value: "iOS 13+, Android 8+" },
         { label: "Battery", value: "Rechargeable Li-ion, ~8 Hrs Use" },
@@ -82,9 +82,9 @@ const proProductData = {
   cta: {
       heading: "Elevate Your Inspections with iTraker Pro",
       text: "Gain the competitive edge with the most advanced termite detection technology available. Order your iTraker Pro today.",
-      primaryButtonText: "ORDER NOW",
+      primaryButtonText: "GET TRACKER PRICING",
       primaryButtonLink: "/contact?product=pro",
-      secondaryButtonText: "Request a Demo",
+      secondaryButtonText: "GET TRACKER PRICING",
       secondaryButtonLink: "/demo?product=pro"
   }
 };

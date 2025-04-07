@@ -19,11 +19,11 @@ const CheckIcon = () => '✓';
 // 2. Define Product-Specific Data for iTraker Base
 const baseProductData = {
   hero: {
-    productName: "iTraker® Base",
+    productName: "iTraker Base",
     subTitle: "Reliable Termite Detection Tool",
-    description: "Dependable termite detection using Radar, Moisture, and Temperature sensors for professional inspections.",
+    description: "Dependable termite detection using  Moisture, and Temperature sensors for professional inspections.",
     //backgroundImageUrl: iTrakerBaseHeroBg, // Or a different image
-    buttonText: "ORDER iTRAKER BASE",
+    buttonText: "ORDER iTRAKER-BASE",
     buttonLink: "/contact?product=base"
   },
   overview: {
@@ -35,13 +35,13 @@ const baseProductData = {
       "Ideal for professionals seeking a balance of advanced features and cost-effectiveness."
     ],
     features: [
-      "Termite Tracking Radar",
+      "Termite Tracking",
       "Precision Moisture Sensor",
       "Ambient Temperature Sensor",
       "Easy-to-use Mobile App",
       "Durable Construction"
     ],
-    buttonText: "Request Base Demo",
+    buttonText: "GET PRICING",
     buttonLink: "/demo?product=base"
   },
   howItWorks: {
@@ -53,7 +53,7 @@ const baseProductData = {
     ]
   },
   benefits: {
-      heading: "Benefits of Using iTraker® Base",
+      heading: "Benefits of Using iTraker Base",
       items: [
          // Benefits might be slightly different or fewer than Pro
         { icon: <CheckIcon />, title: "Reliable Detection", description: "Core sensor technology for accurate identification of termite activity." },
@@ -65,13 +65,13 @@ const baseProductData = {
       ]
   },
   video: {
-      heading: "See iTraker® Base in Action",
+      heading: "See iTraker Base in Action",
       videoId: "YOUR_ITRAKER_BASE_YOUTUBE_ID" // Replace with actual ID (might be same or different video)
   },
   techSpecs: {
-      heading: "iTraker® Base Specifications",
+      heading: "iTraker Base Specifications",
       specs: [
-        { label: "Sensors Included", value: "Radar, Moisture, Temperature" }, // Note: No Thermal
+        { label: "Sensors Included", value: "Termite, Moisture, Temperature" }, // Note: No Thermal
         { label: "Connectivity", value: "Bluetooth 4.2" }, // Example difference
         { label: "App Compatibility", value: "iOS 12+, Android 7+" }, // Example difference
         { label: "Battery", value: "Rechargeable Li-ion, ~7 Hrs Use" }, // Example difference
@@ -82,9 +82,9 @@ const baseProductData = {
   cta: {
       heading: "Get Reliable Results with iTraker Base",
       text: "Step up your termite inspections with proven sensor technology. Order your iTraker Base or request a demo.",
-      primaryButtonText: "ORDER NOW",
+      primaryButtonText: "GET TRACKER PRICING",
       primaryButtonLink: "/contact?product=base",
-      secondaryButtonText: "Request a Demo",
+      secondaryButtonText: "GET TRACKER PRICING",
       secondaryButtonLink: "/demo?product=base"
   }
 };

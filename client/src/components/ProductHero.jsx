@@ -11,7 +11,7 @@ const ProductHero = ({
 }) => {
   return (
     <section
-      className="relative bg-contain bg-right bg-no-repeat text-white py-32 md:py-48 "
+      className="relative bg-contain bg-right mt-10 bg-no-repeat text-white py-32 md:py-48 "
       // Use prop for background image - ensure URL is valid
       style={{ backgroundImage: `url("${backgroundImageUrl}")` }}
     >
@@ -31,8 +31,7 @@ const ProductHero = ({
         </p>
         <a href={buttonLink}>
         <button className="bg-yellow-400 border border-transparent text-black py-3 px-6 rounded-lg font-semibold hover:bg-transparent hover:border-yellow-400 hover:text-yellow-400 transition">
-  {/* ^-- Changed: bg-yellow-400, border-transparent, text-black */}
-  {/* Removed: bg-transparent, border-yellow-400, text-yellow-400 */}
+ 
      {buttonText}
  </button>
         </a>
