@@ -20,9 +20,9 @@ const trackerOnlyData = {
   hero: {
     productName: "Tracker Only",
     subTitle: "Essential Termite Tracking",
-    description: "The original Termatrac Radar technology for reliable, non-invasive termite tracking.",
+    description: "The original Termatrac  technology for reliable, non-invasive termite tracking.",
    // backgroundImageUrl: , // Or a different image
-    buttonText: "ORDER NOW",
+    buttonText: "ORDER TRACKER-ONLY",
     buttonLink: "/contact?product=tracker"
   },
   overview: {
@@ -34,7 +34,7 @@ const trackerOnlyData = {
       "A budget-friendly and easy-to-use option for professionals needing core tracking capabilities."
     ],
     features: [
-      "Termite Tracking Radar",
+      "Termite Tracking",
       "Lightweight & Portable Design",
       "Simple Operation",
       "Proven Reliability"
@@ -43,7 +43,7 @@ const trackerOnlyData = {
     buttonLink: "/contact?product=tracker"
   },
   howItWorks: {
-    heading: "Core Radar Technology",
+    heading: "Core Tracking Technology",
     features: [
       { icon: <RadarIcon />, title: "Termite Tracker", description: "Detects termite movement through common building materials." },
       // Only includes Radar for this basic model
@@ -52,7 +52,7 @@ const trackerOnlyData = {
   benefits: {
       heading: "Benefits of the Tracker Only",
       items: [
-        { icon: <CheckIcon />, title: "Affordable Entry", description: "Access essential Radar tracking technology at a budget-friendly price point." },
+        { icon: <CheckIcon />, title: "Affordable Entry", description: "Access essential  tracking technology at a budget-friendly price point." },
         { icon: <CheckIcon />, title: "Easy to Use", description: "Simple operation makes it quick to learn and deploy in the field." },
         { icon: <CheckIcon />, title: "Non-Invasive Method", description: "Track termites without damaging walls or structures." },
         { icon: <CheckIcon />, title: "Proven Technology", description: "Based on the original, trusted Termatrac Radar system." },
@@ -67,7 +67,7 @@ const trackerOnlyData = {
   techSpecs: {
       heading: "Tracker Specifications",
       specs: [
-        { label: "Sensors Included", value: "Radar" }, // Only Radar
+        { label: "Sensors Included", value: "Termite Tracker" }, // Only Radar
         { label: "Connectivity", value: "N/A (Standalone or specific interface)" }, // Example difference
         { label: "App Compatibility", value: "N/A (or specific legacy software)" }, // Example difference
         { label: "Battery", value: "Standard Replaceable or Rechargeable" }, // Example difference
