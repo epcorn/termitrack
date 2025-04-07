@@ -3,6 +3,7 @@ import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 import morgan from "morgan";
+import path from "path";
 
 dotenv.config();
 
