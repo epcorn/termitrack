@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { motion } from "framer-motion";
 import trackerOnly from "../images/trackerOnly.png";
 import itrackerBase from "../images/itrackerBase.jpg";
 import itrackerPro from "../images/trackerPro.jpg";
@@ -14,17 +15,12 @@ const PestServiceCard = ({
   isHighlighted,
 }) => {
   return (
-    // Apply conditional classes based on isHighlighted
-    // Base styles include shadow-lg and border-gray-200 and transition
-    <div
+    <motion.div
+      transition={{ duration: 0.3 }}
       className={`bg-white rounded-lg overflow-hidden shadow-lg flex flex-col h-full border-2 w-full transition-all duration-300 ease-in-out ${
-        // Base styles
         isHighlighted
-          ? // --- Updated Highlight Styles ---
-            // Using a large, dark, custom arbitrary shadow for a "background" effect
-            "border-gray-300 scale-105 shadow-[0px_0px_35px_15px_rgba(0,0,0,0.35)] z-10" // Custom shadow: centered, 35px blur, 15px spread, 35% black opacity
-          : // --- Normal Styles ---
-            "border-gray-200 hover:shadow-xl" // Default border, hover increases shadow slightly
+          ? "border-yellow-700 scale-105 shadow-[0px_0px_35px_15px_rgba(255,223,0,0.60)] z-10"
+          : "border-gray-200 hover:shadow-xl"
       }`}
     >
       {/* Image Section */}
@@ -32,7 +28,7 @@ const PestServiceCard = ({
         <img
           src={imageSrc}
           alt={`${pestType} control service`}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
@@ -57,15 +53,15 @@ const PestServiceCard = ({
         <p className="text-gray-600 mb-4 flex-grow">{description}</p>
         <ul className="text-sm text-gray-500 mb-4 mt-auto">
           <li className="flex items-center mb-1">
-            <span className="text-green-600 mr-2 font-bold">✓</span>{" "}
+            <span className="text-green-600 mr-2 font-bold">✓</span>
             <span>{point1}</span>
           </li>
           <li className="flex items-center mb-1">
-            <span className="text-green-600 mr-2 font-bold">✓</span>{" "}
+            <span className="text-green-600 mr-2 font-bold">✓</span>
             <span>{point2}</span>
           </li>
           <li className="flex items-center">
-            <span className="text-green-600 mr-2 font-bold">✓</span>{" "}
+            <span className="text-green-600 mr-2 font-bold">✓</span>
             <span>{point3}</span>
           </li>
         </ul>
@@ -77,12 +73,11 @@ const PestServiceCard = ({
           Contact Us for pricing
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const PestServicesGrid = ({ highlightedProduct }) => {
-  // Product data defined inside the component
   const pestServices = [
     {
       pestType: "Tracker Only",
@@ -97,7 +92,7 @@ const PestServicesGrid = ({ highlightedProduct }) => {
     {
       pestType: "iTracker-Base",
       description:
-        'An upgraded tool in "Professional Termite Managemnet", heavily relying on scientific inspection in termite management.',
+        'An upgraded tool in "Professional Termite Management", heavily relying on scientific inspection in termite management.',
       imageSrc: itrackerBase,
       price: 79,
       point1: "Termite Tracking ",
@@ -119,24 +114,19 @@ const PestServicesGrid = ({ highlightedProduct }) => {
   return (
     <div id="trackerRange" className="bg-gray-50 py-12 px-4 scroll-mt-16">
       <h2 className="text-3xl font-bold text-center mb-8">iTracker Range</h2>
-      <div className="flex flex-wrap justify-center items-stretch gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11 max-w-7xl mx-auto">
         {pestServices.map((service) => (
-          <div
+          <PestServiceCard
             key={service.pestType}
-            className="w-full sm:w-1/2 md:w-1/3 lg:w-[31%] flex"
-          >
-            <PestServiceCard // Use PestServiceCard defined above
-              pestType={service.pestType}
-              description={service.description}
-              imageSrc={service.imageSrc}
-              price={service.price}
-              point1={service.point1}
-              point2={service.point2}
-              point3={service.point3}
-              // Calculate and pass isHighlighted based on prop from Home
-              isHighlighted={service.pestType === highlightedProduct}
-            />
-          </div>
+            pestType={service.pestType}
+            description={service.description}
+            imageSrc={service.imageSrc}
+            price={service.price}
+            point1={service.point1}
+            point2={service.point2}
+            point3={service.point3}
+            isHighlighted={service.pestType === highlightedProduct}
+          />
         ))}
       </div>
     </div>
