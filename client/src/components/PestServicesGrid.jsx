@@ -19,7 +19,7 @@ const PestServiceCard = ({
       transition={{ duration: 0.3 }}
       className={`bg-white rounded-lg overflow-hidden shadow-lg flex flex-col h-full border-2 w-full transition-all duration-300 ease-in-out ${
         isHighlighted
-          ? "border-yellow-700 scale-105 shadow-[0px_0px_35px_15px_rgba(255,223,0,0.60)] z-10"
+          ? "border-yellow-700 scale-105 shadow-[0px_0px_35px_15px_rgba(255,223,0,0.35)] z-10"
           : "border-gray-200 hover:shadow-xl"
       }`}
     >
